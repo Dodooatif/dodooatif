@@ -8,9 +8,6 @@ nav {
   background-color: aquamarine;
   justify-content: space-between;
 }
-nav .logo h1{
-  color: yellow;
-}
 nav ul {
   display: flex;
   list-style: none;
@@ -30,6 +27,9 @@ header .hero {
   color: white;
   font-size: 25px;
 }
+.bus button, div{
+  margin: 20px;
+}
 /* projects styles */
 .sly{
   background-color: cadetblue;
@@ -37,16 +37,18 @@ header .hero {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .sly img{
-  margin: 10px;
+  margin: 25px;
 }
 /* contact us styles */
 #lad{
   padding: (3fr 1f);
-
 }
 #lad input{
-  margin: 10px;
+  margin: 20px;
   border: none;  border-bottom: solid red;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  width: 300px;
  
 }
 #lad button{

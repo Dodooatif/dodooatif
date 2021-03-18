@@ -2,7 +2,7 @@ function NavBar () {
     return (
         <nav>
             <div className="logo">
-                <img src="../images/tw.png" alt="Twixt" style={{ height: 70}}/>
+                <img src="../images/tw.png" alt="Twixt" style={{ height: 90}}/>
             </div>
             <ul className="nav-items">
                 <li>Home</li>

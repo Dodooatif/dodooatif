@@ -10,8 +10,8 @@ function Hero() {
     return(
         <header>
             <div className="hero">
-                <h2>Real Estate Developer</h2>
-                <h4>We provide quality and affordable homes in Wa and beyond</h4>
+                <h2>Real Estate</h2>
+                <h4>We provide quality and affordable homes in the Northern part of Ghana.</h4>
             <ButtonContainer styles={styles} title="BOOK NOW"/>
             </div>
         </header>

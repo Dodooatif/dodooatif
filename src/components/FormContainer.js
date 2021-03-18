@@ -1,7 +1,7 @@
 import {useState} from "react"
 function FormContainer() {
-    const [password, setPassword] = useState("twixt")
-    const [email, setEmail] = useState("dodooatif@gmail.com")
+    const [password, setPassword] = useState()
+    const [email, setEmail] = useState()
     return(
        <section className="led">
             <form id= "lad">
